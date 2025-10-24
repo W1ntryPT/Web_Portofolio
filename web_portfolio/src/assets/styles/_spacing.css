@@ -1,0 +1,29 @@
+    /*Small screens */
+@media (width < 576px) { /*???????????????*/
+	:root {
+		--spacing-2xs: 0.702rem;
+		--spacing-xs: 0.790rem;
+		--spacing-s: 0.889rem;
+		--spacing-m: 1.000rem;
+		--spacing-l: 1.125rem;
+		--spacing-xl: 1.266rem;
+		--spacing-2xl: 1.424rem;
+		--spacing-3xl: 1.602rem;
+		--spacing-4xl: 1.802rem;
+	}
+}
+
+    /* Large screens */
+@media (width >= 576px) {/*T???????????????*/
+    :root {
+		--spacing-2xs: 0.236rem;
+		--spacing-xs: 0.382rem;
+		--spacing-s: 0.618rem;
+		--spacing-m: 1.000rem;
+		--spacing-l: 1.618rem;
+		--spacing-xl: 2.618rem;
+		--spacing-2xl: 4.236rem;
+		--spacing-3xl: 6.854rem;
+		--spacing-4xl: 11.089rem;
+	}
+}

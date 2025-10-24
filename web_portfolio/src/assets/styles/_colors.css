@@ -1,0 +1,47 @@
+:root{
+
+            /*Primary:*/
+    --primary-color-100: #8A98B0;
+    --primary-color-200: #6A7C9A;
+    --primary-color-300: #4A6085;
+    --primary-color-400: #2A446F;
+    --primary-color-500: #243A5E;
+    --primary-color-600: #1D304E;
+    --primary-color-700: #17253D;
+
+            /*Secondary:*/
+    --secondary-color-100: #A8EDDF;
+    --secondary-color-200: #91CCC0;
+    --secondary-color-300: #7AADA3;
+    --secondary-color-400: #648F86;
+    --secondary-color-500: #4F726B;
+    --secondary-color-600: #3E5A54;
+    --secondary-color-700: #2E4440;
+
+            /*Background:*/
+    --background-color-100: #D5D5D5;
+    --background-color-200: #F1F3F5;
+    --background-color-300: #E9ECEE;
+    --background-color-400: #E2E4E6;
+    --background-color-500: #DADDDF;
+    --background-color-600: #D3D5D7;
+    --background-color-700: #CBCECF;
+
+            /*Text:*/
+    --text-color-100: #E7E7E7;
+    --text-color-200: #C3C3C4;
+    --text-color-300: #9E9FA0;
+    --text-color-400: #7A7B7C;
+    --text-color-500: #565758;
+    --text-color-600: #313335;
+    --text-color-700: #0D0F11;
+
+            /*Accent:*/
+    --accent-color-100: #FFE2A3;
+    --accent-color-200: #FFDA89;
+    --accent-color-300: #FFD270;
+    --accent-color-400: #FFCA57;
+    --accent-color-500: #D9AC4A;
+    --accent-color-600: #B38D3D;
+    --accent-color-700: #8C6F30;
+}
