@@ -1,0 +1,19 @@
+.btn-primary {
+    padding: var(--spacing-m) var(--spacing-xl);
+    background-color: var(--primary-color-400);
+    color: var(--background-color-100);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-200);
+    cursor:pointer;
+}
+
+.btn-primary:disabled {
+    background-color: var(--text-color-300);
+    color: var(--text-color-100);
+    cursor:not-allowed;
+}

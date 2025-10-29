@@ -1,5 +1,5 @@
     /*Small screens */
-@media (width < 576px) { /*???????????????*/
+@media (width < 768px) {
 	:root {
 		--spacing-2xs: 0.702rem;
 		--spacing-xs: 0.790rem;
@@ -14,7 +14,7 @@
 }
 
     /* Large screens */
-@media (width >= 576px) {/*T???????????????*/
+@media (width >= 768px) {
     :root {
 		--spacing-2xs: 0.236rem;
 		--spacing-xs: 0.382rem;

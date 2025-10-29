@@ -1,0 +1,17 @@
+footer{
+    background-color: var(--background-color-700);
+    padding: var(--spacing-xl) var(--spacing-3xl);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h6{
+    color:var(--primary-color-400);
+}
+
+.small{
+    color:var(--text-color-700)
+}
