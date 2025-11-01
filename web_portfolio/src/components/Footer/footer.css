@@ -1,5 +1,5 @@
 footer{
-    background-color: var(--background-color-700);
+    background-color: var(--background-color-200);
     padding: var(--spacing-xl) var(--spacing-3xl);
     display: flex;
     flex-direction: column;

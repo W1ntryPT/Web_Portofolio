@@ -2,7 +2,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: var(--spacing-m) var(--spacing-3xl);
+    padding: var(--spacing-l) var(--spacing-3xl);
     backdrop-filter: blur(5px);
     position: sticky;
     border-bottom: 1px solid var(--background-color-700) ;
@@ -34,4 +34,18 @@ nav .nav-link:hover::after, nav .nav-link.selected::after{
     bottom: calc(-1 * var(--spacing-xs));
     left: 50%;
     transform: translateX(-50%);
+}
+
+nav .nav-language{
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+
+nav .nav-language-option:hover{
+    cursor: pointer;
+    color:var(--secondary-color-400);
 }
