@@ -93,6 +93,7 @@ h1{
     font-family: var(--title-font);
     font-size:var(--fs-900);
     font-weight: normal;
+    line-height: 185px;
     letter-spacing: 0px;
 }
 

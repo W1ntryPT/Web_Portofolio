@@ -1,0 +1,23 @@
+{
+    "en":{ 
+        "navbar":{
+            "home":"home"
+        },
+        "hero":{
+            "titles":["Diogo Ferreira","Web Portfolio"],
+            "text":"Hi there 👋 I’m Diogo, a software/web developer.\nHere you’ll find some of my projects and a bit about my journey in software development."
+        },
+        "projects":{
+            "title":"My Projects"
+        }
+    },
+    "pt":{ 
+        "hero":{
+            "titles":["Diogo Ferreira","Web Portfolio"],
+            "text":"Ola sou o Dioguinho\nSou um developer memo bue bom juro."
+        },
+        "projects":{
+            "title":"Os meus Projetos"
+        }
+    }
+}

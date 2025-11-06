@@ -3,7 +3,6 @@ footer{
     padding: var(--spacing-xl) var(--spacing-3xl);
     display: flex;
     flex-direction: column;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }

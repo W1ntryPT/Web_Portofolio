@@ -1,10 +1,13 @@
 import {HomePage} from './pages'
 import './App.css';
+import { LanguageProvider } from './contexts';
 
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      <LanguageProvider>
+        <HomePage/> 
+      </LanguageProvider>
     </div>
   );
 }

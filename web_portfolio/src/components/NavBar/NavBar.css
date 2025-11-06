@@ -1,19 +1,29 @@
 nav {
+    box-sizing: border-box;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: var(--spacing-l) var(--spacing-3xl);
     backdrop-filter: blur(5px);
-    position: sticky;
+    position: fixed;
     border-bottom: 1px solid var(--background-color-700) ;
+
+    p{
+    color: blue;
+    }
+
 }
+
 
 nav .nav-brand{
     color: var(--primary-color-400);
+    text-decoration: none;
 }
 
 nav .nav-options {
     display: flex;
+    justify-items:center ;
     flex-direction: row;
     gap: var(--spacing-m);
 }

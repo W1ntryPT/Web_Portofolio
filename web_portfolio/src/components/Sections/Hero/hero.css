@@ -1,0 +1,14 @@
+#hero{
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: var(--spacing-3xl) var(--spacing-2xl);
+    box-sizing: border-box;
+    gap: var(--spacing-xl);
+
+}
+
+.title{
+    color: var(--primary-color-400);
+}

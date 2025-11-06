@@ -1,0 +1,1 @@
+export {default as textsData} from "./texts.json"

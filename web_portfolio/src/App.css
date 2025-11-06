@@ -1,7 +1,12 @@
 @import url(./assets/styles/_imports.css);
 
 html,body{
+    overflow-x: hidden;
     margin: 0;
     background-color: var(--background-color-100);
     color: var(--text-color-600);
+}
+
+section {
+    width: 100%;
 }
