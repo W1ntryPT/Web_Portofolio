@@ -8,11 +8,6 @@ nav {
     backdrop-filter: blur(5px);
     position: fixed;
     border-bottom: 1px solid var(--background-color-700) ;
-
-    p{
-    color: blue;
-    }
-
 }
 
 
@@ -52,6 +47,10 @@ nav .nav-language{
     flex-direction: row;
     align-items: center;
     gap: var(--spacing-xs);
+}
+
+nav .nav-language-option.selected {
+    color: var(--secondary-color-400);
 }
 
 

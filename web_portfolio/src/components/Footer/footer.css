@@ -7,10 +7,10 @@ footer{
     bottom: 0;
 }
 
-h6{
+footer h6{
     color:var(--primary-color-400);
 }
 
-.small{
+footer .small{
     color:var(--text-color-700)
 }

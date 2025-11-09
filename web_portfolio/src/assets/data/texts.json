@@ -1,7 +1,10 @@
 {
     "en":{ 
         "navbar":{
-            "home":"home"
+            "home":"Home",
+            "projects":"Projects",
+            "skills": "Skills",
+            "about": "About"
         },
         "hero":{
             "titles":["Diogo Ferreira","Web Portfolio"],
@@ -11,13 +14,21 @@
             "title":"My Projects"
         }
     },
+
     "pt":{ 
+        "navbar":{
+            "home":"Início",
+            "projects":"Projetos",
+            "skills": "Habilidades",
+            "about": "Sobre"
+        },
         "hero":{
-            "titles":["Diogo Ferreira","Web Portfolio"],
+            "titles":["Diogo Ferreira","Web Portfólio"],
             "text":"Ola sou o Dioguinho\nSou um developer memo bue bom juro."
         },
         "projects":{
             "title":"Os meus Projetos"
         }
     }
+
 }

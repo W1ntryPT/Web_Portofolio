@@ -5,8 +5,16 @@ html,body{
     margin: 0;
     background-color: var(--background-color-100);
     color: var(--text-color-600);
+
+    * {
+        z-index: 0;
+    }
 }
 
-section {
+.background-blur {
+    position: absolute;
+    z-index: -1;
     width: 100%;
+    height: 100%;
+    backdrop-filter: blur(200px);
 }

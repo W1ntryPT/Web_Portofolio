@@ -1,0 +1,15 @@
+#projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:var(--spacing-2xl);
+    padding: 0 var(--spacing-3xl);
+
+    h2{
+        color: var(--primary-color-400);
+    }
+}
+
+#projects .slider {
+    height: 70svh;
+}

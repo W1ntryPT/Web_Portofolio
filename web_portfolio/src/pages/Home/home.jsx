@@ -1,11 +1,12 @@
 import "./home.css";
-import { Footer, Hero, Navbar,PrimaryButton } from "../../components"
+import { Footer, Hero, Navbar,PrimaryButton, Projects } from "../../components"
 
 const HomePage = () => {
     return(
         <div>
             <Navbar/>
-            <Hero />
+            <Hero/>
+            <Projects/>
             <Footer/>
         </div>
     );
