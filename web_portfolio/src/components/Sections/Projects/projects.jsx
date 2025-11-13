@@ -1,19 +1,21 @@
 import "./projects.css"
 import { useContext,useState,useEffect } from "react";
-import { LanguageContext, LanguageProvider } from '../../../contexts';
+import { LanguageContext } from '../../../contexts';
 import Slide from "./slide/slide";
 
 function Projects(){
-
+  const {texts} = useContext(LanguageContext);
+  const txt = texts.txts.projects;
   return(
     <section id = "projects">
       <h2>
-        My Projects
+        {txt.title}
       </h2>
 
       <div className="slider">
         <Slide />
       </div>
+
     </section>
   );
 }

@@ -8,6 +8,7 @@ nav {
     backdrop-filter: blur(5px);
     position: fixed;
     border-bottom: 1px solid var(--background-color-700) ;
+    z-index: 9;
 }
 
 

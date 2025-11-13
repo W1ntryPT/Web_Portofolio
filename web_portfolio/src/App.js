@@ -5,7 +5,7 @@ import { LanguageProvider } from './contexts';
 function App() {
   return (
     <div className="App">
-      <div className='background-blur'></div>
+      <div className='background-noise'></div>
       <LanguageProvider>
         <HomePage/> 
       </LanguageProvider>
