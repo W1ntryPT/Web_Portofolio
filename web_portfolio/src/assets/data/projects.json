@@ -1,0 +1,17 @@
+{
+    "images":{ 
+        "multim":["multim1.png","multim2.png","multim3.png"]
+    },
+
+    "text-en":{
+        "title":["Multim","TopicsChat","Chess"],
+        "description":["Multim is a University Project  I did whith another people, it does loats of thingz","TopicsChat is a project that is in Api Linux", "Chess is a Java Prject where i did a chess"]
+    },
+
+    "text-pt":{
+        "title":["Multim","TopicsChat","Chess"],
+        "description":["Multim é um projeto da Universidade em grupo, Faz montes de coises","TopicsChat é um projeto feito com a API do Linux", "Chess projeto em Java, onde fiz o convencional jogo de Xadrez"]
+    },
+
+    "technologies":["Java","C, Linux API","Java"]
+}

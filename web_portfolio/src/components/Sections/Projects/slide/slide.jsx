@@ -1,7 +1,11 @@
 import './slide.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import  { PrimaryButton } from './../../../Buttons';
 
+
 const Slide = ({imgs = [], title = "", decription = "", languages = [], btnText = "", link = ""}) => {
+
+    const title = text.title;
 
     const action = () => {
         // abrir link
