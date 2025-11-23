@@ -7,11 +7,12 @@
             "about": "About"
         },
         "hero":{
-            "titles":["Diogo Ferreira","Web Portfolio"],
+            "titles":["Diogo <br> Ferreira","Web <br> Portfolio"],
             "text":"Hi there 👋 I’m Diogo, a software/web developer.\nHere you’ll find some of my projects and a bit about my journey in software development."
         },
         "projects":{
-            "title":"My Projects"
+            "title":"My Projects",
+            "btn":"See more"
         }
     },
 
@@ -27,7 +28,8 @@
             "text":"Ola sou o Dioguinho\nSou um developer memo bue bom juro."
         },
         "projects":{
-            "title":"Os meus Projetos"
+            "title":"Os meus Projetos",
+            "btn":"Ver mais"
         }
     }
 

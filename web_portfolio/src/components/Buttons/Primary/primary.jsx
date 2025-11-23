@@ -4,7 +4,7 @@ function PrimaryButton({text = "Button", disabled = false, action = () => {conso
 
     return(
         <button className='btn-primary' onClick={action}>
-            <p><b>
+            <p style={{margin: 0}}><b>
                 {text}
             </b></p>
         </button>

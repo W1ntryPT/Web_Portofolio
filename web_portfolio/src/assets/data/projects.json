@@ -1,17 +1,51 @@
-{
-    "images":{ 
-        "multim":["multim1.png","multim2.png","multim3.png"]
-    },
+[
+    {
+        "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0tEssxGUQNz7Z5ASMOXFRDhzogx4h4TtAnA&s", "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"],
 
-    "text-en":{
-        "title":["Multim","TopicsChat","Chess"],
-        "description":["Multim is a University Project  I did whith another people, it does loats of thingz","TopicsChat is a project that is in Api Linux", "Chess is a Java Prject where i did a chess"]
-    },
+        "text": {
+            "en": {
+                "title":"Multim",
+                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+            },
+            "pt": {
+                "title":"Chess",
+                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+            }
+        },
 
-    "text-pt":{
-        "title":["Multim","TopicsChat","Chess"],
-        "description":["Multim é um projeto da Universidade em grupo, Faz montes de coises","TopicsChat é um projeto feito com a API do Linux", "Chess projeto em Java, onde fiz o convencional jogo de Xadrez"]
+        "technologies":["Java","C, Linux API","Java"]
     },
+    {
+        "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0tEssxGUQNz7Z5ASMOXFRDhzogx4h4TtAnA&s", "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"],
 
-    "technologies":["Java","C, Linux API","Java"]
-}
+        "text": {
+            "en": {
+                "title":"dsadad",
+                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+            },
+            "pt": {
+                "title":"Chess",
+                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+            }
+        },
+
+        "technologies":["Java","C, Linux API","Java"]
+    },
+    {
+        "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0tEssxGUQNz7Z5ASMOXFRDhzogx4h4TtAnA&s", "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"],
+
+        "text": {
+            "en": {
+                "title":"dsadsaads11",
+                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+            },
+            "pt": {
+                "title":"Chess",
+                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+            }
+        },
+
+        "technologies":["Java","C, Linux API","Java"]
+    }
+
+]

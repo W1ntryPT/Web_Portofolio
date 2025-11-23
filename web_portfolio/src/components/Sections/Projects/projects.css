@@ -3,13 +3,23 @@
     flex-direction: column;
     text-align: center;
     gap:var(--spacing-2xl);
-    padding: 0 var(--spacing-3xl);
 
     h2{
         color: var(--primary-color-400);
     }
 }
 
-#projects .slider {
+#projects .carousel-inner {
+    padding: 0 var(--spacing-3xl);
     height: 70svh;
+    overflow: visible;
+}
+#projects .carousel-item {
+    height: 100%;
+}
+
+#projects .carousel-control-next,
+#projects .carousel-control-prev {
+    width: auto;
+    margin: 0 var(--spacing-xl);
 }

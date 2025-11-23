@@ -11,15 +11,26 @@
     box-shadow: 0 0 var(--spacing-l) rgba(0, 0, 0, 0.04);
 }
 
-.slider-item .slider-images {
-    background-color: var(--background-color-200);
-}
 
-.slider-images .image-slide {
+#slider-images .image-slide {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    width: 100%;
+    height: 100%;
 }
+#slider-images .carousel-control-next,
+#slider-images .carousel-control-prev {
+    width: auto;
+    margin: 0;
+}
+
+#slider-images .carousel-inner {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
 
 .slide-content {
     display: flex;
@@ -29,7 +40,7 @@
 }
 
 .slide-content .title {
-    color: var(--primary-color-200);
+    color: var(--primary-color-500);
 }
 
 .slide-content .content-body {

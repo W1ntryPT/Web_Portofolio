@@ -2,6 +2,9 @@ import "./projects.css"
 import { useContext,useState,useEffect } from "react";
 import { LanguageContext } from '../../../contexts';
 import Slide from "./slide/slide";
+import Carousel from 'react-bootstrap/Carousel';
+import projects from './../../../assets/data/projects.json';
+
 
 function Projects(){
   const {texts} = useContext(LanguageContext);
@@ -12,9 +15,13 @@ function Projects(){
         {txt.title}
       </h2>
 
-      <div className="slider">
-        <Slide />
-      </div>
+      <Carousel data-bs-theme="dark" fade={true} >
+        {projects.map((p, index) =>
+          <Carousel.Item key={index + "p"}>
+            <Slide project={p} language={texts.language} btn = {txt.btn} />
+          </Carousel.Item>
+        )}
+      </Carousel>
 
     </section>
   );

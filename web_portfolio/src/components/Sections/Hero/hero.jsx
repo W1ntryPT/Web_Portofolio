@@ -1,10 +1,10 @@
 import { useRef,useEffect, useState, useContext } from "react";
 import { LanguageContext } from "../../../contexts";
 import Typed from 'typed.js';
+import {blob} from '../../../assets/img/blob1.svg';
 import "./hero.css"
 
 function Hero(){
-    const[title, setTitle] = useState("Diogo Ferreira");
     const { texts, setTexts } = useContext(LanguageContext);
 
     const txt = texts.txts.hero;
@@ -25,10 +25,12 @@ function Hero(){
 
     return(
         <section id="hero">
-            <p className="hxl title " ref={el}></p>
+            <div>
+              <p className="hxl title " ref={el}></p>
+            </div>
             <p className="big-body" style={{ whiteSpace: 'pre-line' }}>{txt.text}</p>
 
-            <div className="background-object"><p>dsadasdasbdsagdsagdgsasda</p></div>
+            <div className="background-object"><img src="/blob1.svg" alt="blob" /></div>
         </section>
     );
 }
