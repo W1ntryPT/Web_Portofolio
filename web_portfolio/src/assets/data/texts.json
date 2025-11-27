@@ -13,6 +13,15 @@
         "projects":{
             "title":"My Projects",
             "btn":"See more"
+        },
+        "about":{
+            "title":"About",
+            "text":"See"
+        },
+        "skills":{
+            "title":"My Skills",
+            "cards":["C++","Git"],
+            "categoryColors":["green","blue"]
         }
     },
 
@@ -30,6 +39,15 @@
         "projects":{
             "title":"Os meus Projetos",
             "btn":"Ver mais"
+        },
+        "about":{
+            "title":"Sobre mim",
+            "text":"Ver mais"
+        },
+        "skills":{
+            "title":"Tecnologias",
+            "cards":["C++","Git"],
+            "categoryColors":["green","blue"]
         }
     }
 

@@ -5,6 +5,7 @@ import {blob} from '../../../assets/img/blob1.svg';
 import "./hero.css"
 
 function Hero(){
+    const[title, setTitle] = useState("Diogo Ferreira");
     const { texts, setTexts } = useContext(LanguageContext);
 
     const txt = texts.txts.hero;

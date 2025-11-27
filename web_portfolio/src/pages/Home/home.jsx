@@ -1,5 +1,5 @@
 import "./home.css";
-import { Footer, Hero, Navbar,PrimaryButton, Projects } from "../../components"
+import { Footer, Hero, Navbar,PrimaryButton, Projects, About, Skills } from "../../components"
 
 const HomePage = () => {
     return(
@@ -7,6 +7,8 @@ const HomePage = () => {
             <Navbar/>
             <Hero/>
             <Projects/>
+            <Skills/>
+            <About/>
             <Footer/>
         </>
     );
