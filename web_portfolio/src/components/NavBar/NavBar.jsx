@@ -21,10 +21,10 @@ function Navbar(){
         <nav>
             <a href='' className='nav-brand'><h4>Diogo Ferreira</h4></a>
             <div className="nav-options">
-                <a className='nav-link big-body'>{txt.home}</a>
-                <a className='nav-link big-body'>{txt.projects}</a>
-                <a className='nav-link big-body'>{txt.skills}</a>
-                <a className='nav-link big-body'>{txt.about}</a>
+                <a className='nav-link big-body' href='#'>{txt.home}</a>
+                <a className='nav-link big-body' href='#projects'>{txt.projects}</a>
+                <a className='nav-link big-body' href='#skills'>{txt.skills}</a>
+                <a className='nav-link big-body' href='#about'>{txt.about}</a>
                 <div className='nav-language'>
                     <p className={`nav-language-option ${lang === "en" ? 'selected' : ''}`} onClick={() => onSelectLang("en")}><b>EN</b></p>
                     <p className={`nav-language-option ${lang === "pt" ? 'selected' : ''}`} onClick={() => onSelectLang("pt")}><b>PT</b></p>

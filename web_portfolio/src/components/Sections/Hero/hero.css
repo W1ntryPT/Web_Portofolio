@@ -9,10 +9,13 @@
 
 }
 
-.title{
+#hero .title{
     color: var(--primary-color-400);
+    height: calc(2 * var(--fs-900));
 }
-
+#hero .title p {
+    display: inline-block;
+}
 /* blob */
 #hero .background-object {
     top: 20%;

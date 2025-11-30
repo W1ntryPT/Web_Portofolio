@@ -1,67 +1,77 @@
-[
-    {
-        "name" : "C++",
-        "type":"1",
-        "img":"c++.jpg"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
-    },
-    {
-        "name" : "joao",
-        "type":"2",
-        "img":"c++"
+{
+    "techs": [
+        {
+            "name": "C++",
+            "type": "language",
+            "img": "c++",
+            "link": ""
+        },
+        {
+            "name": "Java",
+            "type": "language",
+            "img": "java",
+            "link": ""
+
+        },
+        {
+            "name": "Github",
+            "type": "other",
+            "img": "github",
+            "link": "https://github.com/W1ntryPT"
+        },
+        {
+            "name": "React",
+            "type": "language",
+            "img": "react",
+            "link": ""
+        },
+        {
+            "name": "Html",
+            "type": "language",
+            "img": "html",
+            "link": ""
+        },
+        {
+            "name": "Css",
+            "type": "language",
+            "img": "css",
+            "link": ""
+        },
+        {
+            "name": "JavaScript",
+            "type": "language",
+            "img": "js",
+            "link": ""
+        },
+        {
+            "name": "C#",
+            "type": "language",
+            "img": "c_sharp",
+            "link": ""
+        },
+        {
+            "name": "Figma",
+            "type": "tool",
+            "img": "figma",
+            "link": ""
+        },
+        {
+            "name": "Linux API",
+            "type": "other",
+            "img": "linux",
+            "link": ""
+        },
+        {
+            "name": "Android Studio",
+            "type": "other",
+            "img": "androidStudio",
+            "link": ""
+        }
+    ],
+
+    "typecolors": {
+        "language": "var(--language-color)",
+        "tool": "var(--tool-color)",
+        "other": "var(--other-color)"
     }
-]
+}

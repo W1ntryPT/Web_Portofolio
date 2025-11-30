@@ -1,10 +1,12 @@
 footer{
+    position: relative;
     background-color: var(--background-color-200);
     padding: var(--spacing-xl) var(--spacing-3xl);
     display: flex;
     flex-direction: column;
     width: 100%;
     bottom: 0;
+    z-index: 1;
 }
 
 footer h6{

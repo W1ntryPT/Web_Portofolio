@@ -20,14 +20,15 @@ function Hero(){
       contentType: "html",
       loop: true,
       loopCount: Infinity,
+      cursorChar: ''
     });
     return () => { typed.destroy(); };
   }, []);
 
     return(
         <section id="hero">
-            <div>
-              <p className="hxl title " ref={el}></p>
+            <div className="title">
+              <p className="hxl" ref={el}></p>
             </div>
             <p className="big-body" style={{ whiteSpace: 'pre-line' }}>{txt.text}</p>
 

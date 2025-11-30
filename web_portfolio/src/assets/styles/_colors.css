@@ -44,4 +44,9 @@
     --accent-color-500: #D9AC4A;
     --accent-color-600: #B38D3D;
     --accent-color-700: #8C6F30;
+
+        /*Technologies:*/
+    --language-color: #388ad6;
+    --tool-color: #9b441f;
+    --other-color: #1eb535;
 }

@@ -8,8 +8,10 @@ function About(){
     const txt = texts.txts.skills;
     const [ts, setTs] = useState([]);
 
-    const MAX_X = 5;
-    const MAX_Y = 5;
+    const MAX_X = 4;
+    const MAX_Y = 4;
+
+    const TYPE_COLORS = techs.typecolors;
 
     const shuffle = (arr) => {
         for (let i = arr.length - 1; i > 0; i--) {
@@ -29,9 +31,11 @@ function About(){
 
         const shuffledPositions = shuffle(positions);
 
-        const mapped = techs.map((t, i) => ({
+        const mapped = techs.techs.map((t, i) => ({
             ...t,
-            ...shuffledPositions[i]
+            ...shuffledPositions[i],
+            offsetX: Math.floor(Math.random() * 60 - 30), // -30px a +30px
+            offsetY: 0  // -30px a +30px
         }));
 
         setTs(mapped);
@@ -45,14 +49,13 @@ function About(){
 
             <div className="cards">
                 {ts.map((t, index) => (
-                    <div className="tech-container" key={index} style={{gridArea: `${t.x} / ${t.y} / ${t.x + 1} / ${t.y + 1}`}}>
-                        <div className="tech">
-                            <img src={`/imgs/tecnologies/${t.img}`} alt={t.title} />
+                    <div className="tech-container" key={index} style={{gridArea: `${t.x} / ${t.y} / ${t.x + 1} / ${t.y + 1}`,transform: `translate(${t.offsetX}px, ${t.offsetY}px)`}}>
+                        <a className="tech" style={{cursor: t.link? "pointer": "default",  "--bg":  TYPE_COLORS[t.type]}} href={t.link} target="_blank">
+                            <img src={`/imgs/tecnologies/${t.img}.jpg`} alt={t.title} link />
                             <div className="content">
-                                {t.name}
-                                {t.type}
+                                <p>{t.name}</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 ))}
             </div>
