@@ -1,16 +1,28 @@
 import "./projects.css"
-import { useContext,useState,useEffect } from "react";
-import { LanguageContext } from '../../../contexts';
+import { useContext,useState,useEffect, useRef } from "react";
+import { LanguageContext, PageContext } from '../../../contexts';
 import Slide from "./slide/slide";
 import Carousel from 'react-bootstrap/Carousel';
 import projects from './../../../assets/data/projects.json';
-
+import useIsVisible from "../../../utils/useIsVisible";
 
 function Projects(){
   const {texts} = useContext(LanguageContext);
+  const {setCurrent} = useContext(PageContext);
   const txt = texts.txts.projects;
+
+  const ref = useRef();
+  const isVisible = useIsVisible(ref);
+
+  useEffect(() => {
+    if(isVisible)
+      setCurrent("projects")
+    console.log(isVisible)
+  }, [isVisible]);
+
+
   return(
-    <section id = "projects">
+    <section id = "projects" ref={ref}>
       <h2>
         {txt.title}
       </h2>

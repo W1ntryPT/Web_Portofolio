@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
-import { LanguageContext } from '../../contexts';
+import { LanguageContext, PageContext } from '../../contexts';
 import './navbar.css';
 import { textsData } from '../../assets/data';
 
@@ -7,6 +7,9 @@ function Navbar(){
     const { texts, setTexts } = useContext(LanguageContext);
     const[lang, setLang] = useState(texts?.language);
     const txt = texts.txts.navbar;
+
+    const {current} = useContext(PageContext)
+
 
     const onSelectLang = (new_lang) => {
         setLang(new_lang);
@@ -21,10 +24,10 @@ function Navbar(){
         <nav>
             <a href='' className='nav-brand'><h4>Diogo Ferreira</h4></a>
             <div className="nav-options">
-                <a className='nav-link big-body' href='#'>{txt.home}</a>
-                <a className='nav-link big-body' href='#projects'>{txt.projects}</a>
-                <a className='nav-link big-body' href='#skills'>{txt.skills}</a>
-                <a className='nav-link big-body' href='#about'>{txt.about}</a>
+                <a className={`nav-link big-body ${current === 'home' ? 'selected' : ''}`} href='#'>{txt.home}</a>
+                <a className={`nav-link big-body ${current === 'projects' ? 'selected' : ''}`} href='#projects'>{txt.projects}</a>
+                <a className={`nav-link big-body ${current === 'skills' ? 'selected' : ''}`} href='#skills'>{txt.skills}</a>
+                <a className={`nav-link big-body ${current === 'about' ? 'selected' : ''}`} href='#about'>{txt.about}</a>
                 <div className='nav-language'>
                     <p className={`nav-language-option ${lang === "en" ? 'selected' : ''}`} onClick={() => onSelectLang("en")}><b>EN</b></p>
                     <p className={`nav-language-option ${lang === "pt" ? 'selected' : ''}`} onClick={() => onSelectLang("pt")}><b>PT</b></p>

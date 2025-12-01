@@ -1,13 +1,12 @@
 import { useRef,useEffect, useState, useContext } from "react";
-import { LanguageContext } from "../../../contexts";
+import { LanguageContext, PageContext } from "../../../contexts";
 import Typed from 'typed.js';
-import {blob} from '../../../assets/img/blob1.svg';
+import useIsVisible from "../../../utils/useIsVisible";
 import "./hero.css"
 
 function Hero(){
     const[title, setTitle] = useState("Diogo Ferreira");
     const { texts, setTexts } = useContext(LanguageContext);
-
     const txt = texts.txts.hero;
 
     const el = useRef(null);
@@ -25,16 +24,25 @@ function Hero(){
     return () => { typed.destroy(); };
   }, []);
 
-    return(
-        <section id="hero">
-            <div className="title">
-              <p className="hxl" ref={el}></p>
-            </div>
-            <p className="big-body" style={{ whiteSpace: 'pre-line' }}>{txt.text}</p>
+  const {setCurrent} = useContext(PageContext);
+  const ref = useRef();
+  const isVisible = useIsVisible(ref);
 
-            <div className="background-object"><img src="/blob1.svg" alt="blob" /></div>
-        </section>
-    );
+  useEffect(() => {
+    if(isVisible)
+      setCurrent("home")
+  }, [isVisible]);
+
+  return(
+      <section id="hero" ref={ref}>
+          <div className="title">
+            <p className="hxl" ref={el}></p>
+          </div>
+          <p className="big-body" style={{ whiteSpace: 'pre-line' }}>{txt.text}</p>
+
+          <div className="background-object"><img src="blob1.svg" alt="blob" /></div>
+      </section>
+  );
 }
 
 export default Hero;

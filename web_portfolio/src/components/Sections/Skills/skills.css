@@ -10,15 +10,11 @@
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: repeat(4,1fr);
         width: 60%;
-        justify-items: center;   /* centra cada item na célula */
-        align-items: center;     /* alinha verticalmente */
         margin: 0 auto;          /* centra o container */
-        grid-gap: var(--spacing-xs);
+        grid-gap: var(--spacing-m);
 
         .tech-container{
             display: flex;
-            justify-content: center;
-            align-items: center;
         }
 
         .tech {
@@ -78,4 +74,11 @@
 
 .title{
     color: var(--primary-color-400);
+}
+
+/* blob */
+#skills .background-object {
+    opacity: 0.6;
+    top: -30%;
+    left: -20%;
 }
