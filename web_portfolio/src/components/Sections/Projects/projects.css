@@ -4,6 +4,7 @@
     text-align: center;
     padding: var(--spacing-3xl) var(--spacing-2xl);
     gap:var(--spacing-2xl);
+    z-index: 3;
 
     h2{
         color: var(--primary-color-400);
@@ -23,4 +24,15 @@
 #projects .carousel-control-prev {
     width: auto;
     margin: 0 var(--spacing-xl);
+}
+
+#projects .carousel-indicators {
+    bottom: calc(-1 * var(--spacing-2xl));
+}
+#projects .carousel-indicators button {
+    background-color: var(--primary-color-200);
+    opacity: 1;
+}
+#projects .carousel-indicators .active {
+    background-color: var(--primary-color-700);
 }

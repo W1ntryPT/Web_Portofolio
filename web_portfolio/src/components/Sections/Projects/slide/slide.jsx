@@ -7,16 +7,16 @@ import Carousel from 'react-bootstrap/Carousel';
 const Slide = ({project, language, btn}) => {
 
     const action = () => {
-        // abrir link
+        window.open(project.link,"_blank");
     }
 
     return(
         <div className="slider-item">
 
-            <Carousel data-bs-theme="dark" slide={true} id="slider-images" indicators={false} >
+            <Carousel data-bs-theme="dark" slide={true} id="slider-images" indicators={false} controls={project.images.length > 1} >
                 {project.images.map((i, index) =>
-                <Carousel.Item key={index + "p"}>
-                    <div className="image-slide" style={{ backgroundImage:`url(${i})`}}></div>
+                <Carousel.Item key={index + "img"}>
+                    <div className="image-slide" style={{ backgroundImage:`url(imgs/projects/${i})`}} key={index + "img1"}></div>
                 </Carousel.Item>
                 )}
             </Carousel>
@@ -31,14 +31,14 @@ const Slide = ({project, language, btn}) => {
                     <div className="languages">
                         <h6>Languages:</h6>
                         <p>
-                            {project.technologies.map(l =>
-                                <span>{l}</span>
+                            {project.technologies.map((l, index) =>
+                                <span key={index + "tech"}>{l}</span>
                             )}
                         </p>
                     </div>
                 </div>
                 <div className="options">
-                    <PrimaryButton text={btn} />
+                    <PrimaryButton text={btn} action={() => action()} />
                 </div>
             </div>
 

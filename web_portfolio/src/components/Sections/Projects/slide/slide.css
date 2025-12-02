@@ -22,7 +22,11 @@
 #slider-images .carousel-control-next,
 #slider-images .carousel-control-prev {
     width: auto;
-    margin: 0;
+    margin: 0 var(--spacing-s);
+}
+#slider-images .carousel-control-next span,
+#slider-images .carousel-control-prev span {
+    filter: invert(100%);
 }
 
 #slider-images .carousel-inner {

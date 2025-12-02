@@ -1,6 +1,6 @@
 [
     {
-        "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0tEssxGUQNz7Z5ASMOXFRDhzogx4h4TtAnA&s", "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"],
+        "images":["multim1.png"],
 
         "text": {
             "en": {
@@ -8,19 +8,20 @@
                 "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
             },
             "pt": {
-                "title":"Chess",
+                "title":"Multim",
                 "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
             }
         },
+        "link": "https://gitlab.com/gps_g321/gps_g32",
 
-        "technologies":["Java","C, Linux API","Java"]
+        "technologies":["Java FX","Java"]
     },
     {
         "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0tEssxGUQNz7Z5ASMOXFRDhzogx4h4TtAnA&s", "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"],
 
         "text": {
             "en": {
-                "title":"dsadad",
+                "title":"Chess",
                 "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
             },
             "pt": {
@@ -28,24 +29,42 @@
                 "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
             }
         },
+        "link": "https://github.com/Programacao-Avancada-2025/tp-group-66",
 
-        "technologies":["Java","C, Linux API","Java"]
+        "technologies":["Java FX","Java"]
     },
     {
         "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0tEssxGUQNz7Z5ASMOXFRDhzogx4h4TtAnA&s", "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"],
 
         "text": {
             "en": {
-                "title":"dsadsaads11",
+                "title":"TopicsChat",
                 "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
             },
             "pt": {
-                "title":"Chess",
+                "title":"TopicsChat",
                 "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
             }
         },
 
-        "technologies":["Java","C, Linux API","Java"]
+        "technologies":["C","Linux"]
+    },
+    {
+        "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0tEssxGUQNz7Z5ASMOXFRDhzogx4h4TtAnA&s", "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"],
+
+        "text": {
+            "en": {
+                "title":"GardenSim",
+                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+            },
+            "pt": {
+                "title":"GardenSim",
+                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+            }
+        },
+        "link": "link",
+
+        "technologies":["C++"]
     }
 
 ]
