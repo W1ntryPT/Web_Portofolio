@@ -5,11 +5,11 @@
         "text": {
             "en": {
                 "title":"Multim",
-                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+                "description":"MultiM is a secure and intuitive ATM system that simplifies financial management. It offers real-time account updates, multi-currency support powered by a live exchange-rate API, and smart tools for fast, seamless transactions."
             },
             "pt": {
                 "title":"Multim",
-                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+                "description":"O MultiM é um sistema de ATM seguro e intuitivo que simplifica a gestão financeira. Oferece atualizações em tempo real, suporte a várias moedas através de uma API de taxas de câmbio e ferramentas inteligentes para transações rápidas e eficientes."
             }
         },
         "link": "https://gitlab.com/gps_g321/gps_g32",
@@ -17,52 +17,53 @@
         "technologies":["Java FX","Java"]
     },
     {
-        "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0tEssxGUQNz7Z5ASMOXFRDhzogx4h4TtAnA&s", "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"],
+        "images":["chess1.png", "chess2.png","chess3.png"],
 
         "text": {
             "en": {
                 "title":"Chess",
-                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+                "description":"Chess game developed in Java, featuring a Learning mode with undo/redo, move highlighting, and full rule implementation."
             },
             "pt": {
                 "title":"Chess",
-                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+                "description":"Jogo de xadrez desenvolvido em Java, inclui modo Learning com undo/redo, visualização de movimentos possíveis e lógica completa das regras."
             }
         },
-        "link": "https://github.com/Programacao-Avancada-2025/tp-group-66",
+        "link": "https://github.com/W1ntryPT/ChessGamePA",
 
         "technologies":["Java FX","Java"]
     },
     {
-        "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0tEssxGUQNz7Z5ASMOXFRDhzogx4h4TtAnA&s", "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"],
+        "images":["topicsChat1.png", "topicsChat2.png", "topicsChat3.png"],
 
         "text": {
             "en": {
                 "title":"TopicsChat",
-                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+                "description":"This project implements a client–server architecture with a topic-based system, allowing clients to create, subscribe to, and exchange messages. The server manages all the logic and communication between clients."
             },
             "pt": {
                 "title":"TopicsChat",
-                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+                "description":"Este projeto implementa uma arquitetura cliente-servidor, com um sistema de tópicos, permitindo aos clientes criar, subscrever e trocar mensagens. O servidor gere toda a lógica e comunicação entre os clientes."
             }
         },
+        "link":"https://github.com/W1ntryPT/TP-SO",
 
         "technologies":["C","Linux"]
     },
     {
-        "images":["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0tEssxGUQNz7Z5ASMOXFRDhzogx4h4TtAnA&s", "https://img.freepik.com/free-photo/closeup-scarlet-macaw-from-side-view-scarlet-macaw-closeup-head_488145-3540.jpg?semt=ais_hybrid&w=740&q=80"],
+        "images":[],
 
         "text": {
             "en": {
                 "title":"GardenSim",
-                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+                "description":"Available soon..."
             },
             "pt": {
                 "title":"GardenSim",
-                "description":"Multim is a University Project  I did whith another people, it does loats of thingz"
+                "description":"Brevemente disponível..."
             }
         },
-        "link": "link",
+        "link":"https://github.com/W1ntryPT/GardenSimulator",
 
         "technologies":["C++"]
     }

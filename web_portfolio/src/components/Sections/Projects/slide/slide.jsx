@@ -24,16 +24,18 @@ const Slide = ({project, language, btn}) => {
             <div className="slide-content">
                 <div className="content-body">
                     <div className="title"><h5>{project.text[language].title}</h5></div>
-                    <div className="description">
+                    <div className="slide-section description">
                         <h6>Description:</h6>
                         <p>{project.text[language].description}</p>
                     </div>
-                    <div className="languages">
+                    <div className="slide-section languages">
                         <h6>Languages:</h6>
-                        <p>
-                            {project.technologies.map((l, index) =>
-                                <span key={index + "tech"}>{l}</span>
-                            )}
+                        <p className="tags">
+                            {project.technologies.map((l, index) => (
+                                <span key={index + "tech"} className="tag">
+                                {l}
+                                </span>
+                            ))}
                         </p>
                     </div>
                 </div>

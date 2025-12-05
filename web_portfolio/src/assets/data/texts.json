@@ -16,7 +16,17 @@
         },
         "about":{
             "title":"About",
-            "text":"See"
+            "intro":"Who?",
+            "introText": "I'm a web developer passionate about building meaningful and user-friendly experiences.",
+            "formation":"How?",
+            "formationText" : "I study Computer Engineering at ISEC, and previously completed my secondary education in the Science and Technology Course at ES Marques de Castilho, Águeda.",
+            "more":"What?",
+            "moreText":"I enjoy solving problems, learning new technologies, and turning ideas into projects that people enjoy using.Thank you for visiting my portfolio!",
+            "linkedin": "www.linkedin.com/in/diogo-ferreira-b422b2350",
+            "email" : "diogoalexf@gmail.com",
+            "github" : "https://github.com/W1ntryPT",
+            "images":{"email" : "email", "linkedin" : "linkedin", "github" : "github.jpg" },
+            "contact":"Feel free to reach me out!"
         },
         "skills":{
             "title":"My Skills",
@@ -29,12 +39,12 @@
         "navbar":{
             "home":"Início",
             "projects":"Projetos",
-            "skills": "Habilidades",
+            "skills": "Tecnologias",
             "about": "Sobre"
         },
         "hero":{
             "titles":["Diogo Ferreira","Web Portfólio"],
-            "text":"Ola sou o Dioguinho\nSou um developer memo bue bom juro."
+            "text":"Olá! 👋 Sou o Diogo, um desenvolvedor de software e web.\nAqui podes encontrar alguns dos meus projetos e um pouco sobre o meu percurso no desenvolvimento de software."
         },
         "projects":{
             "title":"Os meus Projetos",
@@ -42,7 +52,17 @@
         },
         "about":{
             "title":"Sobre mim",
-            "text":"Ver mais"
+            "intro":"Quem?",
+            "introText": "Sou um desenvolvedor web apaixonado por criar experiências significativas e fáceis de usar.",
+            "formation":"Como?",
+            "formationText" : "Estudo Engenharia Informática no ISEC e concluí anteriormente o ensino secundário no Curso de Ciências e Tecnologias na ES Marques de Castilho, Águeda.",
+            "more":"O quê?",
+            "moreText":"Gosto de resolver problemas, aprender novas tecnologias e transformar ideias em projetos que as pessoas apreciem utilizar. Obrigado por visitares o meu portfólio!",
+            "linkedin": "www.linkedin.com/in/diogo-ferreira-b422b2350",
+            "email" : "diogoalexf@gmail.com",
+            "github" : "https://github.com/W1ntryPT",
+            "images":{"email" : "email", "linkedin" : "linkedin", "github" : "github.jpg" },
+            "contact":"Sente-te à vontade para entrar em contacto — terei todo o gosto em responder!"
         },
         "skills":{
             "title":"Tecnologias",

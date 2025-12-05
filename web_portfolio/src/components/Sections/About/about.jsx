@@ -21,6 +21,55 @@ function About(){
             <h2 className="title">
                 {txt.title}
             </h2>
+            <ul className="content">
+                <li className="aboutItem">
+                    <h5>{txt.intro}</h5>
+                    <p className="aboutText">{txt.introText}</p>
+                </li>
+                <li className="aboutItem">
+                    <h5>{txt.formation}</h5>
+                    <p className="aboutText">{txt.formationText}</p>
+                </li>
+                <li className="aboutItem">
+                    <h5>{txt.more}</h5>
+                    <p className="aboutText">{txt.moreText}</p>
+                </li>
+            </ul>
+
+        <div className="contact-section">
+            <div className="contact-icon">
+                <a
+                    href={`mailto:${txt.email}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Send me an email"
+                >
+                    
+                    <img src={`/imgs/contacts/${txt.images.email}.jpg`} alt={txt.email} link />
+                </a>
+                <a
+                href={`https://${txt.linkedin}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LinkedIn"
+                >
+                    <img src={`/imgs/contacts/${txt.images.linkedin}.jpg`} alt={txt.images.linkedin} link />
+                </a>
+                <a
+                href={`${txt.github}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Github"
+                >
+                    <img src={`/imgs/contacts/${txt.images.github}`} alt={txt.images.github} link />
+                </a>
+            </div>
+            <div className="contact-text">
+                <b>
+                    {txt.contact}
+                </b>
+            </div>
+        </div>
         </section>
     );
 }

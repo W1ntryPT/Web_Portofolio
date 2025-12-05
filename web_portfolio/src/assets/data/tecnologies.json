@@ -62,9 +62,9 @@
             "link": ""
         },
         {
-            "name": "Android Studio",
-            "type": "other",
-            "img": "androidStudio",
+            "name": "Kotlin",
+            "type": "language",
+            "img": "kotlin",
             "link": ""
         }
     ],

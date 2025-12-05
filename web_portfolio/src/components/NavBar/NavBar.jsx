@@ -24,10 +24,10 @@ function Navbar(){
         <nav>
             <a href='' className='nav-brand'><h4>Diogo Ferreira</h4></a>
             <div className="nav-options">
-                <a className={`nav-link big-body ${current === 'home' ? 'selected' : ''}`} href='#'>{txt.home}</a>
-                <a className={`nav-link big-body ${current === 'projects' ? 'selected' : ''}`} href='#projects'>{txt.projects}</a>
-                <a className={`nav-link big-body ${current === 'skills' ? 'selected' : ''}`} href='#skills'>{txt.skills}</a>
-                <a className={`nav-link big-body ${current === 'about' ? 'selected' : ''}`} href='#about'>{txt.about}</a>
+                <a className={`nav-link ${current === 'home' ? 'selected' : ''}`} href='#'>{txt.home}</a>
+                <a className={`nav-link ${current === 'projects' ? 'selected' : ''}`} href='#projects'>{txt.projects}</a>
+                <a className={`nav-link ${current === 'skills' ? 'selected' : ''}`} href='#skills'>{txt.skills}</a>
+                <a className={`nav-link ${current === 'about' ? 'selected' : ''}`} href='#about'>{txt.about}</a>
                 <div className='nav-language'>
                     <p className={`nav-language-option ${lang === "en" ? 'selected' : ''}`} onClick={() => onSelectLang("en")}><b>EN</b></p>
                     <p className={`nav-language-option ${lang === "pt" ? 'selected' : ''}`} onClick={() => onSelectLang("pt")}><b>PT</b></p>

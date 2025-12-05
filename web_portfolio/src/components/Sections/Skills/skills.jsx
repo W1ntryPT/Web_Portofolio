@@ -31,7 +31,7 @@ function About(){
             <div className="cards">
                 {ts.map((t, index) => (
                     <div className="tech-container" key={index} style={{gridArea: `${t.x} / ${t.y} / ${t.x + 1} / ${t.y + 1}`, justifyContent: t.align}}>
-                        <a className="tech" style={{cursor: t.link ? "pointer": "default",  "--bg":  TYPE_COLORS[t.type]}} href={t.link} target="_blank">
+                        <a className="tech" style={{cursor: t.link ? "pointer": "default",  "--bg":  TYPE_COLORS[t.type], onClick: t.link ? "none": "default"}} href={t.link} target="_blank">
                             <img src={`/imgs/tecnologies/${t.img}.jpg`} alt={t.title} link />
                             <div className="content">
                                 <p>{t.name}</p>

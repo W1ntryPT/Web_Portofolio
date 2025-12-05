@@ -17,6 +17,11 @@ nav .nav-brand{
     text-decoration: none;
 }
 
+nav .nav-link {
+    font-size: var(--fs-300);
+    font-weight: 700;
+}
+
 nav .nav-options {
     display: flex;
     justify-items:center ;
@@ -33,11 +38,11 @@ nav .nav-link:hover, nav .nav-link.selected{
 nav .nav-link:hover::after, nav .nav-link.selected::after{
     content: '';
     position: absolute;
-    width: 30%;
+    width: 60%;
     height: 2px;
     border-radius: 100px;
     background-color: var(--secondary-color-400);
-    bottom: calc(-1 * var(--spacing-xs));
+    top: 98%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -48,14 +53,11 @@ nav .nav-language{
     flex-direction: row;
     align-items: center;
     gap: var(--spacing-xs);
+    font-size: var(--fs-200);
 }
 
-nav .nav-language-option.selected {
-    color: var(--secondary-color-400);
-}
-
-
-nav .nav-language-option:hover{
+nav .nav-language-option.selected,
+nav .nav-language-option:hover {
     cursor: pointer;
-    color:var(--secondary-color-400);
+    color: var(--secondary-color-400);
 }

@@ -4,8 +4,84 @@
     text-align: center;
     padding: var(--spacing-3xl) var(--spacing-2xl);
     gap:var(--spacing-2xl);
+
 }
 
 .title{
     color: var(--primary-color-400);
+}
+
+#about .content{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding:  var(--spacing-s) var(--spacing-l);
+    text-align: left;
+    padding: var(--spacing-l);
+    font-size: var(--fs-300);
+    margin: 0 auto;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-section .contact-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:var(--spacing-l) ;
+}
+
+.contact-section .contact-icon img {
+  aspect-ratio: 1 / 1;
+  width: var(--fs-600);
+  text-decoration: none;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.contact-section .contact-icon img:hover {
+  transform: scale(1.2);
+  color: var(--primary-color-700); 
+}
+
+.contact-text{
+  margin-top: var(--spacing-s);
+  font-size: var(--fs-500);
+  color: var(--primary-color-400);
+  text-align: center;
+  opacity: 0.9;
+}
+
+#about .content{
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-m);
+  padding-left: var(--spacing-2xl);
+}
+
+#about .content .aboutItem{
+  font-size: var(--fs-300);
+  list-style: none;
+  margin-bottom:var(--spacing-m) ;
+}
+
+#about .content h5 {
+  color: var(--accent-color-300);
+}
+
+#about .content .aboutText {
+  position: relative;
+  padding-left: var(--spacing-2xl); 
+  line-height: 1.6;
+}
+
+#about .content .aboutText::before {
+  content: "•";          
+  position: absolute;
+  padding-left: var(--spacing-xl);
+  left: 0;               
+  color: var(--primary-color-400);
+  font-weight: bold;
 }
