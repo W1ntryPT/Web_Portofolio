@@ -15,6 +15,7 @@ function About(){
         if(isVisible)
           setCurrent("about")
       }, [isVisible]);
+
     return(
         <section id="about" ref={ref}>
             <h2 className="title">
@@ -43,7 +44,8 @@ function About(){
                     rel="noopener noreferrer"
                     title="Send me an email"
                 >
-                    <img src={`${process.env.PUBLIC_URL}/web_portfolio/public/imgs/contacts/${txt.images.email}`} alt={txt.email} link />
+                    
+                    <img src={`/Web_Portofolio/imgs/contacts/${txt.images.email}`} alt={txt.email} link />
                 </a>
                 <a
                 href={`https://${txt.linkedin}`}
@@ -51,7 +53,7 @@ function About(){
                 rel="noopener noreferrer"
                 title="LinkedIn"
                 >
-                    <img src={`${process.env.PUBLIC_URL}./public/imgs/contacts/${txt.images.linkedin}`} alt={txt.images.linkedin} link />
+                    <img src={`/Web_Portofolio/imgs/contacts/${txt.images.linkedin}`} alt={txt.images.linkedin} link />
                 </a>
                 <a
                 href={`${txt.github}`}
@@ -59,7 +61,7 @@ function About(){
                 rel="noopener noreferrer"
                 title="Github"
                 >
-                    <img src={`/imgs/contacts/${txt.images.github}`} alt={txt.images.github} link />
+                    <img src={`/Web_Portofolio//imgs/contacts/${txt.images.github}`} alt={txt.images.github} link />
                 </a>
             </div>
             <div className="contact-text">
