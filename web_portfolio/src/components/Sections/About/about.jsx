@@ -51,7 +51,7 @@ function About(){
                 rel="noopener noreferrer"
                 title="LinkedIn"
                 >
-                    <img src={`./public/imgs/contacts/${txt.images.linkedin}`} alt={txt.images.linkedin} link />
+                    <img src={`${process.env.PUBLIC_URL}./public/imgs/contacts/${txt.images.linkedin}`} alt={txt.images.linkedin} link />
                 </a>
                 <a
                 href={`${txt.github}`}
