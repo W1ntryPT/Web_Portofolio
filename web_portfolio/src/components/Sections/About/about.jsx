@@ -1,7 +1,7 @@
 import { useContext,useRef,useEffect } from "react";
 import { LanguageContext,PageContext } from "../../../contexts";
 import useIsVisible from "../../../utils/useIsVisible";
-import "./about.css"
+import "./about.css";
 
 function About(){
     const { texts, setTexts } = useContext(LanguageContext);
@@ -15,7 +15,6 @@ function About(){
         if(isVisible)
           setCurrent("about")
       }, [isVisible]);
-
     return(
         <section id="about" ref={ref}>
             <h2 className="title">
@@ -44,8 +43,7 @@ function About(){
                     rel="noopener noreferrer"
                     title="Send me an email"
                 >
-                    
-                    <img src={`/imgs/contacts/${txt.images.email}.jpg`} alt={txt.email} link />
+                    <img src={`${process.env.PUBLIC_URL}/web_portfolio/public/imgs/contacts/${txt.images.email}`} alt={txt.email} link />
                 </a>
                 <a
                 href={`https://${txt.linkedin}`}
@@ -53,7 +51,7 @@ function About(){
                 rel="noopener noreferrer"
                 title="LinkedIn"
                 >
-                    <img src={`/imgs/contacts/${txt.images.linkedin}.jpg`} alt={txt.images.linkedin} link />
+                    <img src={`./public/imgs/contacts/${txt.images.linkedin}`} alt={txt.images.linkedin} link />
                 </a>
                 <a
                 href={`${txt.github}`}
