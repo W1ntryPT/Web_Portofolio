@@ -1,7 +1,7 @@
 {
   "name": "web_portfolio",
   "version": "0.1.0",
-  "homepage": "https://W1ntryPT/github.io/Web_Portofolio",
+  "homepage": "https://W1ntryPT.github.io/Web_Portofolio",
   "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
