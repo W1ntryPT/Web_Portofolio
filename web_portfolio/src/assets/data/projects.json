@@ -51,16 +51,16 @@
         "technologies":["C","Linux"]
     },
     {
-        "images":[],
+        "images":["GardenSim1.png","GardenSim2.png","GardenSim3.png","GardenSim4.png","GardenSim5.png"],
 
         "text": {
             "en": {
                 "title":"GardenSim",
-                "description":"Available soon..."
+                "description":"This project implements a console-based garden simulation using object-oriented programming principles in C++. Users can create and manage a garden, control a gardener, plant and harvest different types of plants, and use various tools through a command-driven interface."
             },
             "pt": {
                 "title":"GardenSim",
-                "description":"Brevemente disponível..."
+                "description":"Este projeto implementa um simulador de jardim em modo consola, utilizando princípios de programação orientada a objetos em C++. O utilizador pode criar e gerir um jardim, controlar um jardineiro, plantar e colher diferentes tipos de plantas e utilizar várias ferramentas através de comandos."
             }
         },
         "link":"https://github.com/W1ntryPT/GardenSimulator",
