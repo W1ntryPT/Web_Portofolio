@@ -4,13 +4,13 @@
             "name": "C++",
             "type": "language",
             "img": "c++",
-            "link": ""
+            "link": "https://learn.microsoft.com/en-us/cpp/cpp/?view=msvc-170"
         },
         {
             "name": "Java",
             "type": "language",
             "img": "java",
-            "link": ""
+            "link": "https://docs.oracle.com/en/java/"
 
         },
         {
@@ -23,49 +23,49 @@
             "name": "React",
             "type": "language",
             "img": "react",
-            "link": ""
+            "link": "https://react.dev/learn"
         },
         {
             "name": "Html",
             "type": "language",
             "img": "html",
-            "link": ""
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
         {
             "name": "Css",
             "type": "language",
             "img": "css",
-            "link": ""
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
         },
         {
             "name": "JavaScript",
             "type": "language",
             "img": "js",
-            "link": ""
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         },
         {
             "name": "C#",
             "type": "language",
             "img": "c_sharp",
-            "link": ""
+            "link": "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
         },
         {
             "name": "Figma",
             "type": "tool",
             "img": "figma",
-            "link": ""
+            "link": "https://developers.figma.com/"
         },
         {
             "name": "Linux API",
             "type": "other",
             "img": "linux",
-            "link": ""
+            "link": "https://docs.kernel.org/"
         },
         {
             "name": "Kotlin",
             "type": "language",
             "img": "kotlin",
-            "link": ""
+            "link": "https://kotlinlang.org/docs/home.html"
         }
     ],
 

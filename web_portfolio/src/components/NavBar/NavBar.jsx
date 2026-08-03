@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from 'react';
 import { LanguageContext, PageContext } from '../../contexts';
-import './navbar.css';
+import './Navbar.css';
 import { textsData } from '../../assets/data';
 
 function Navbar(){
