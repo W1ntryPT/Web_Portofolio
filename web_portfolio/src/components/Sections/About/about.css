@@ -12,8 +12,8 @@
 }
 
 #about .content{
-    border: 1px solid black;
-    border-radius: 16px;
+    /*border: 1px solid black;
+    border-radius: 16px*/
     padding:  var(--spacing-s) var(--spacing-l);
     text-align: left;
     padding: var(--spacing-l);
@@ -25,6 +25,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap:var(--spacing-l);
 }
 
 .contact-section .contact-icon{
@@ -49,7 +50,7 @@
 .contact-text{
   margin-top: var(--spacing-s);
   font-size: var(--fs-500);
-  color: var(--primary-color-400);
+  color: var(--primary-color-700);
   text-align: center;
   opacity: 0.9;
 }
@@ -68,7 +69,7 @@
 }
 
 #about .content h5 {
-  color: var(--accent-color-300);
+  color: var(--secondary-color-400);
 }
 
 #about .content .aboutText {

@@ -37,6 +37,11 @@ function About(){
             </ul>
 
         <div className="contact-section">
+            <div className="contact-text">
+                <b>
+                    {txt.contact}
+                </b>
+            </div>
             <div className="contact-icon">
                 <a
                     href={`mailto:${txt.email}`}
@@ -63,11 +68,6 @@ function About(){
                 >
                     <img src={`/Web_Portofolio//imgs/contacts/${txt.images.github}`} alt={txt.images.github} link />
                 </a>
-            </div>
-            <div className="contact-text">
-                <b>
-                    {txt.contact}
-                </b>
             </div>
         </div>
         </section>
