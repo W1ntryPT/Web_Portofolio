@@ -16,7 +16,7 @@ const Slide = ({project, language, btn}) => {
             <Carousel data-bs-theme="dark" slide={true} id="slider-images" indicators={false} controls={project.images.length > 1} >
                 {project.images.map((i, index) =>
                 <Carousel.Item key={index + "img"}>
-                    <div className="image-slide" style={{ backgroundImage:`url(/Web_Portofolio/imgs/projects/${i})`}} key={index + "img1"}></div>
+                    <div className="image-slide" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/imgs/projects/${i})`}} key={index + "img1"}></div>
                 </Carousel.Item>
                 )}
             </Carousel>

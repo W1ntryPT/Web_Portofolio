@@ -50,7 +50,7 @@ function About(){
                     title="Send me an email"
                 >
                     
-                    <img src={`/Web_Portofolio/imgs/contacts/${txt.images.email}`} alt={txt.email} link />
+                    <img src={`${process.env.PUBLIC_URL}/imgs/contacts/${txt.images.email}`} alt={txt.email} link />
                 </a>
                 <a
                 href={`https://${txt.linkedin}`}
@@ -58,7 +58,7 @@ function About(){
                 rel="noopener noreferrer"
                 title="LinkedIn"
                 >
-                    <img src={`/Web_Portofolio/imgs/contacts/${txt.images.linkedin}`} alt={txt.images.linkedin} link />
+                    <img src={`${process.env.PUBLIC_URL}/imgs/contacts/${txt.images.linkedin}`} alt={txt.images.linkedin} link />
                 </a>
                 <a
                 href={`${txt.github}`}
@@ -66,7 +66,7 @@ function About(){
                 rel="noopener noreferrer"
                 title="Github"
                 >
-                    <img src={`/Web_Portofolio//imgs/contacts/${txt.images.github}`} alt={txt.images.github} link />
+                    <img src={`${process.env.PUBLIC_URL}/imgs/contacts/${txt.images.github}`} alt={txt.images.github} link />
                 </a>
             </div>
         </div>
