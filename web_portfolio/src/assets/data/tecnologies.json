@@ -66,6 +66,12 @@
             "type": "language",
             "img": "kotlin",
             "link": "https://kotlinlang.org/docs/home.html"
+        },
+        {
+            "name": "Cesium",
+            "type": "tool",
+            "img": "cesium",
+            "link": "https://cesium.com/learn/cesiumjs-learn/"
         }
     ],
 
