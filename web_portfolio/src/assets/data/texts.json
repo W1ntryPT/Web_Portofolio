@@ -1,74 +1,91 @@
 {
-    "en":{ 
-        "navbar":{
-            "home":"Home",
-            "projects":"Projects",
-            "skills": "Skills",
-            "about": "About"
-        },
-        "hero":{
-            "titles":["Diogo <br> Ferreira","Web <br> Portfolio"],
-            "text":"Hi there 👋 I’m Diogo, a software/web developer.\nHere you’ll find some of my projects and a bit about my journey in software development."
-        },
-        "projects":{
-            "title":"My Projects",
-            "btn":"See more"
-        },
-        "about":{
-            "title":"About",
-            "intro":"Who am I?",
-            "introText": "I'm a web developer passionate about building meaningful and user-friendly experiences.",
-            "formation":"How did I learn this?",
-            "formationText" : "I studied Computer Engineering at ISEC, and previously completed my secondary education in the Science and Technology Course at ES Marques de Castilho, Águeda.",
-            "more":"What do I do?",
-            "moreText":"I enjoy solving problems, learning new technologies, and turning ideas into projects that people enjoy using.",
-            "linkedin": "www.linkedin.com/in/diogo-ferreira-b422b2350",
-            "email" : "diogoalexf@gmail.com",
-            "github" : "https://github.com/W1ntryPT",
-            "images":{"email" : "email.jpg", "linkedin" : "linkedin.jpg", "github" : "github.jpg" },
-            "contact":"Feel free to reach me out!"
-        },
-        "skills":{
-            "title":"My Skills",
-            "cards":["C++","Git"],
-            "categoryColors":["green","blue"]
-        }
+  "en": {
+    "navbar": {
+      "home": "Home",
+      "projects": "Projects",
+      "skills": "Skills",
+      "about": "My Journey"
     },
-
-    "pt":{ 
-        "navbar":{
-            "home":"Início",
-            "projects":"Projetos",
-            "skills": "Tecnologias",
-            "about": "Sobre"
-        },
-        "hero":{
-            "titles":["Diogo Ferreira","Web Portfólio"],
-            "text":"Olá! 👋 Sou o Diogo, um desenvolvedor de software e web.\nAqui podes encontrar alguns dos meus projetos e um pouco sobre o meu percurso no desenvolvimento de software."
-        },
-        "projects":{
-            "title":"Os meus Projetos",
-            "btn":"Ver mais"
-        },
-        "about":{
-            "title":"Sobre mim",
-            "intro":"Quem sou?",
-            "introText": "Sou um desenvolvedor web apaixonado por criar experiências significativas e fáceis de usar.",
-            "formation":"Onde estudei?",
-            "formationText" : "Estudei Engenharia Informática no ISEC e concluí anteriormente o ensino secundário no Curso de Ciências e Tecnologias na ES Marques de Castilho, Águeda.",
-            "more":"O quê gosto de fazer?",
-            "moreText":"Gosto de resolver problemas, aprender novas tecnologias e transformar ideias em projetos que as pessoas apreciem utilizar.",
-            "linkedin": "www.linkedin.com/in/diogo-ferreira-b422b2350",
-            "email" : "diogoalexf@gmail.com",
-            "github" : "https://github.com/W1ntryPT",
-            "images":{"email" : "email.jpg", "linkedin" : "linkedin.jpg", "github" : "github.jpg" },
-            "contact":"Sente-te à vontade para entrar em contacto — terei todo o gosto em responder!"
-        },
-        "skills":{
-            "title":"Tecnologias",
-            "cards":["C++","Git"],
-            "categoryColors":["green","blue"]
-        }
+    "hero": {
+      "titles": ["Diogo <br> Ferreira", "Web <br> Portfolio"],
+      "text": "Hi there 👋 I’m Diogo, a software/web developer.\nHere you’ll find some of my projects and a bit about my journey in software development."
+    },
+    "projects": {
+      "title": "My Projects",
+      "btn": "See more"
+    },
+    "about": {
+      "title": "My Journey",
+      "intro": "Who am I?",
+      "introText": "I'm a web developer passionate about building meaningful and user-friendly experiences.",
+      "formation": "How did I learn this?",
+      "formationText": "I studied Computer Engineering at ISEC, and previously completed my secondary education in the Science and Technology Course at ES Marques de Castilho, Águeda.",
+      "more": "What do I do?",
+      "moreText": "I enjoy solving problems, learning new technologies, and turning ideas into projects that people enjoy using.",
+      "linkedin": "www.linkedin.com/in/diogo-ferreira-b422b2350",
+      "email": "diogoalexf@gmail.com",
+      "github": "https://github.com/W1ntryPT",
+      "images": {
+        "email": "email.jpg",
+        "linkedin": "linkedin.jpg",
+        "github": "github.jpg"
+      },
+      "methods": {
+        "email": "Email",
+        "linkedin": "Linkedin",
+        "github": "Github"
+      },
+      "contact": "Feel free to reach me out!"
+    },
+    "skills": {
+      "title": "My Skills",
+      "cards": ["C++", "Git"],
+      "categoryColors": ["green", "blue"]
     }
+  },
 
+  "pt": {
+    "navbar": {
+      "home": "Início",
+      "projects": "Projetos",
+      "skills": "Tecnologias",
+      "about": "O Meu Percurso"
+    },
+    "hero": {
+      "titles": ["Diogo Ferreira", "Web Portfólio"],
+      "text": "Olá! 👋 Sou o Diogo, um desenvolvedor de software e web.\nAqui podes encontrar alguns dos meus projetos e um pouco sobre o meu percurso no desenvolvimento de software."
+    },
+    "projects": {
+      "title": "Os meus Projetos",
+      "btn": "Ver mais"
+    },
+    "about": {
+      "title": "O Meu Percurso",
+      "intro": "Quem sou?",
+      "introText": "Sou um desenvolvedor web apaixonado por criar experiências significativas e fáceis de usar.",
+      "formation": "Onde estudei?",
+      "formationText": "Estudei Engenharia Informática no ISEC e concluí anteriormente o ensino secundário no Curso de Ciências e Tecnologias na ES Marques de Castilho, Águeda.",
+      "more": "O quê gosto de fazer?",
+      "moreText": "Gosto de resolver problemas, aprender novas tecnologias e transformar ideias em projetos que as pessoas apreciem utilizar.",
+      "linkedin": "www.linkedin.com/in/diogo-ferreira-b422b2350",
+      "email": "diogoalexf@gmail.com",
+      "github": "https://github.com/W1ntryPT",
+      "images": {
+        "email": "email.jpg",
+        "linkedin": "linkedin.jpg",
+        "github": "github.jpg"
+      },
+      "methods": {
+        "email": "Email",
+        "linkedin": "Linkedin",
+        "github": "Github"
+      },
+      "contact": "Sente-te à vontade para entrar em contacto!"
+    },
+    "skills": {
+      "title": "Tecnologias",
+      "cards": ["C++", "Git"],
+      "categoryColors": ["green", "blue"]
+    }
+  }
 }
