@@ -4,11 +4,11 @@ import { LanguageProvider, PageProvider } from "./contexts";
 import { useEffect } from "react";
 
 function App() {
-  /* useEffect(() => { //TODO
+  useEffect(() => { 
     if (window.location.hostname === "w1ntrypyt.github.io") {
       window.location.replace("https://dferreira.pt");
     }
-  }, []); */
+  }, []);
   return (
     <div className="App">
       <PageProvider>

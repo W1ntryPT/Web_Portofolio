@@ -49,7 +49,7 @@
 }
 
 .contact-section .contact-icon .contact-method:hover h7 {
-  transition: transform 0.2s;
+  transition: transform 1s;
   transform: scale(1.1);
 }
 

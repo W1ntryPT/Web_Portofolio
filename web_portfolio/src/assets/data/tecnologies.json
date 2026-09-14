@@ -72,6 +72,12 @@
             "type": "tool",
             "img": "cesium",
             "link": "https://cesium.com/learn/cesiumjs-learn/"
+        },
+        {
+            "name": "SQL",
+            "type": "language",
+            "img": "sql",
+            "link": "https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/Introduction-to-Oracle-SQL.html"
         }
     ],
 
