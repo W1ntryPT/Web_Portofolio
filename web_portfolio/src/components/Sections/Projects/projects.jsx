@@ -17,7 +17,6 @@ function Projects(){
   useEffect(() => {
     if(isVisible)
       setCurrent("projects")
-    console.log(isVisible)
   }, [isVisible]);
 
 

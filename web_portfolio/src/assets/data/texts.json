@@ -4,24 +4,47 @@
       "home": "Home",
       "projects": "Projects",
       "skills": "Skills",
-      "about": "My Journey"
+      "about": "Journey"
     },
     "hero": {
       "titles": ["Diogo <br> Ferreira", "Web <br> Portfolio"],
       "text": "Hi there 👋 I’m Diogo, a software/web developer.\nHere you’ll find some of my projects and a bit about my journey in software development."
     },
     "projects": {
-      "title": "My Projects",
+      "title": "Projects",
       "btn": "See more"
     },
     "about": {
-      "title": "My Journey",
-      "intro": "Who am I?",
-      "introText": "I'm a web developer passionate about building meaningful and user-friendly experiences.",
-      "formation": "How did I learn this?",
-      "formationText": "I studied Computer Engineering at ISEC, and previously completed my secondary education in the Science and Technology Course at ES Marques de Castilho, Águeda.",
-      "more": "What do I do?",
-      "moreText": "I enjoy solving problems, learning new technologies, and turning ideas into projects that people enjoy using.",
+      "title": "Journey",
+      "cards": [
+        {
+          "subtitle": "About Me",
+          "text": [
+            "As long as I can remember, I've been passionate about creating things on my own.",
+            "I'm particularly interested in <span>Web</span> and <span>Frontend</span> development.",
+            "Outside of coding, I enjoy exploring new technologies, working on personal projects, and continuously improving my skills."
+          ],
+          "image": "eu.jpg"
+        },
+        {
+          "subtitle": "Education",
+          "text": [
+            "I studied Computer Science at the Instituto Superior de Engenharia de Coimbra (ISEC).",
+            "At ISEC, I developed important skills for this field, such as <span>Team work</span> and <span>Problem Solving</span> .",
+            "During my studies, I've had the opportunity to work with different technologies and explore different areas of Software Development</span>."
+          ],
+          "image": "isec.jpg"
+        },
+        {
+          "subtitle": "Experience",
+          "text": [
+            "I did an internship at OneSource in Coimbra, where I worked on the <span>Mobitrust</span> project.",
+            "There, I developed and implemented several new functionalities for the platform, such as 3D maps using different 3D model formats and new interfaces designed by the company's designer.",
+            "During this internship, I developed several new skills, including <span>Cesium.js</span>, <span>Docker</span>, <span>Vue.js</span>, <span>Real-World experience</span> and <span>Time Management</span>."
+          ],
+          "image": "OneSource.jpg"
+        }
+      ],
       "linkedin": "www.linkedin.com/in/diogo-ferreira-b422b2350",
       "email": "diogoalexf@gmail.com",
       "github": "https://github.com/W1ntryPT",
@@ -38,7 +61,7 @@
       "contact": "Feel free to reach me out!"
     },
     "skills": {
-      "title": "My Skills",
+      "title": "Skills",
       "cards": ["C++", "Git"],
       "categoryColors": ["green", "blue"]
     }
@@ -49,24 +72,47 @@
       "home": "Início",
       "projects": "Projetos",
       "skills": "Tecnologias",
-      "about": "O Meu Percurso"
+      "about": "Percurso"
     },
     "hero": {
       "titles": ["Diogo Ferreira", "Web Portfólio"],
       "text": "Olá! 👋 Sou o Diogo, um desenvolvedor de software e web.\nAqui podes encontrar alguns dos meus projetos e um pouco sobre o meu percurso no desenvolvimento de software."
     },
     "projects": {
-      "title": "Os meus Projetos",
+      "title": "Projetos",
       "btn": "Ver mais"
     },
     "about": {
-      "title": "O Meu Percurso",
-      "intro": "Quem sou?",
-      "introText": "Sou um desenvolvedor web apaixonado por criar experiências significativas e fáceis de usar.",
-      "formation": "Onde estudei?",
-      "formationText": "Estudei Engenharia Informática no ISEC e concluí anteriormente o ensino secundário no Curso de Ciências e Tecnologias na ES Marques de Castilho, Águeda.",
-      "more": "O quê gosto de fazer?",
-      "moreText": "Gosto de resolver problemas, aprender novas tecnologias e transformar ideias em projetos que as pessoas apreciem utilizar.",
+      "title": "Percurso",
+      "cards": [
+        {
+          "subtitle": "Sobre Mim",
+          "text": [
+            "Desde que me lembro, sou apaixonado por criar coisas por conta própria.",
+            "Tenho um interesse particular por desenvolvimento <span>Web</span> e <span>Frontend</span>.",
+            "Fora da programação, gosto de explorar novas tecnologias, trabalhar em projetos pessoais e melhorar continuamente as minhas competências."
+          ],
+          "image": "eu.jpg"
+        },
+        {
+          "subtitle": "Formação",
+          "text": [
+            "Estudei Engenharia Informática no Instituto Superior de Engenharia de Coimbra (ISEC).",
+            "No ISEC, desenvolvi competências importantes para esta área, como <span>Trabalho em Equipa</span> e <span>Resolução de Problemas</span>.",
+            "Durante os meus estudos, tive a oportunidade de trabalhar com diferentes tecnologias e explorar várias áreas do <span>Desenvolvimento de Software</span>."
+          ],
+          "image": "isec.jpg"
+        },
+        {
+          "subtitle": "Experiência",
+          "text": [
+            "Realizei um estágio na OneSource, em Coimbra, onde trabalhei no projeto <span>Mobitrust</span>.",
+            "Durante o estágio, desenvolvi e implementei várias funcionalidades novas para a plataforma, como mapas 3D utilizando diferentes formatos de modelos 3D e novas interfaces desenvolvidas pelo designer da empresa.",
+            "Durante esta experiência, desenvolvi várias competências, incluindo <span>Cesium.js</span>, <span>Docker</span>, <span>Vue.js</span> e <span>Experiência em contexto empresarial</span> e <span>Gestão de Tempo</span>."
+          ],
+          "image": "OneSource.jpg"
+        }
+      ],
       "linkedin": "www.linkedin.com/in/diogo-ferreira-b422b2350",
       "email": "diogoalexf@gmail.com",
       "github": "https://github.com/W1ntryPT",
@@ -80,7 +126,7 @@
         "linkedin": "Linkedin",
         "github": "Github"
       },
-      "contact": "Sente-te à vontade para entrar em contacto!"
+      "contact": "Sente-te á vontade para me contactar!"
     },
     "skills": {
       "title": "Tecnologias",
