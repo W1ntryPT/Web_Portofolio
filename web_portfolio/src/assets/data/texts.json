@@ -39,7 +39,7 @@
           "subtitle": "Experience",
           "text": [
             "I did an internship at OneSource in Coimbra, where I worked on the <span>Mobitrust</span> project.",
-            "There, I developed and implemented several new functionalities for the platform, such as 3D maps using different 3D model formats and new interfaces designed by the company's designer.",
+            "There, I developed and implemented several new functionalities, such as <span>3D maps</span> using different 3D model formats, <span>new interfaces</span> for the platform, and other functionalities.",
             "During this internship, I developed several new skills, including <span>Cesium.js</span>, <span>Docker</span>, <span>Vue.js</span>, <span>Real-World experience</span> and <span>Time Management</span>."
           ],
           "image": "OneSource.jpg"
