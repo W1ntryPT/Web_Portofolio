@@ -107,7 +107,7 @@
           "subtitle": "Experiência",
           "text": [
             "Realizei um estágio na OneSource, em Coimbra, onde trabalhei no projeto <span>Mobitrust</span>.",
-            "Durante o estágio, desenvolvi e implementei várias funcionalidades novas para a plataforma, como mapas 3D utilizando diferentes formatos de modelos 3D e novas interfaces desenvolvidas pelo designer da empresa.",
+            "Durante o estágio, desenvolvi e implementei várias funcionalidades novas, como <span>mapas 3D</span> utilizando diferentes formatos de modelos 3D,<span> novas interfaces</span> para a plataforma, entre outras funcionalidades.",
             "Durante esta experiência, desenvolvi várias competências, incluindo <span>Cesium.js</span>, <span>Docker</span>, <span>Vue.js</span> e <span>Experiência em contexto empresarial</span> e <span>Gestão de Tempo</span>."
           ],
           "image": "OneSource.jpg"
