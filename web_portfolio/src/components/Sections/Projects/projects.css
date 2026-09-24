@@ -37,14 +37,37 @@
   background-color: var(--primary-color-700);
 }
 
+/* larger */
+@media (max-width: 1200px) {
+  #projects .carousel-control-next,
+  #projects .carousel-control-prev {
+    display: none;
+  }
+
+  #projects {
+    padding: var(--spacing-2xl) 0;
+  }
+
+  #projects h2 {
+    font-size: var(--fs-600);
+    padding: var(--spacing-xs);
+  }
+}
+
+@media (max-width: 768px) {
+  #projects  {
+    padding: 0;
+  }
+}
+
 @media (max-width: 450px) {
   #projects .carousel-control-next,
   #projects .carousel-control-prev {
     display: none;
   }
 
-  #projects{
-    padding:  var(--spacing-2xl) 0;
+  #projects {
+    padding: var(--spacing-2xl) 0;
   }
 
   #projects h2 {

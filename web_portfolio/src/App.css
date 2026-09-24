@@ -18,6 +18,19 @@ html,body{
     filter: blur(30px);
 }
 
+@media (max-width: 1200px) {
+  #about {
+    scroll-margin-top: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  #projects,
+  #skills{
+    scroll-margin-top: 70px;
+  }
+}
+
 @media (max-width: 450px) {
   #projects,
   #skills,

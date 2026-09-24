@@ -1,0 +1,7 @@
+:root {
+  --min-width: 350px;/* done */
+  --medium-width: 450px;/* done */
+  --large-width: 768px;
+  --larger-width: 1200px;/* done */
+  --max-width: 1440px;/* done */
+}

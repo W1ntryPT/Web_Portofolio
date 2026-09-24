@@ -17,7 +17,7 @@ footer .small {
   color: var(--text-color-700);
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   footer {
     justify-content: center;
     align-items: center;

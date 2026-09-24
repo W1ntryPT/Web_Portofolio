@@ -81,6 +81,37 @@
   left: -20%;
 }
 
+@media (max-width: 768px) {
+  #skills {
+    min-height: 100svh;
+    justify-content: center;
+    gap: var(--spacing-3xl);
+  }
+
+  #skills h2 {
+    font-size: var(--fs-600);
+  }
+
+  #skills .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    width: 80%;
+  }
+
+  #skills .cards .tech{
+    filter: none;
+  }
+
+  #skills .tech-container {
+    justify-content: center !important;
+  }
+
+  #skills .tech img {
+    width: var(--fs-400);
+  }
+}
+
 @media (max-width: 450px) {
   #skills {
     min-height: 90svh;
