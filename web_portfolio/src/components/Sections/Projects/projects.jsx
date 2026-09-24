@@ -26,14 +26,13 @@ function Projects(){
         {txt.title}
       </h2>
 
-      <Carousel data-bs-theme="dark" fade={true} >
+      <Carousel className="carousel" data-bs-theme="dark" fade={true} >
         {projects.map((p, index) =>
           <Carousel.Item key={index + "p"}>
             <Slide project={p} language={texts.language} btn = {txt.btn} key={index + "p1"} />
           </Carousel.Item>
         )}
       </Carousel>
-
     </section>
   );
 }

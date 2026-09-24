@@ -30,7 +30,7 @@ function About() {
 
                   <div className="about-info">
                     {card.text.map((text, index) => (
-                      <h5
+                      <p
                         key={index}
                         dangerouslySetInnerHTML={{ __html: text }}
                       />

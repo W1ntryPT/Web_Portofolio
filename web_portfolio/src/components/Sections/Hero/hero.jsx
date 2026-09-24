@@ -39,7 +39,6 @@ function Hero(){
             <p className="hxl" ref={el}></p>
           </div>
           <p className="big-body" style={{ whiteSpace: 'pre-line' }}>{txt.text}</p>
-
           <div className="background-object"><img src="blob1.svg" alt="blob" /></div>
       </section>
   );

@@ -1,52 +1,70 @@
-import './slide.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import  { PrimaryButton } from './../../../Buttons';
-import Carousel from 'react-bootstrap/Carousel';
+import "./slide.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { PrimaryButton } from "./../../../Buttons";
+import Carousel from "react-bootstrap/Carousel";
 
+const Slide = ({ project, language, btn }) => {
+  const action = () => {
+    window.open(project.link, "_blank");
+  };
 
-const Slide = ({project, language, btn}) => {
+  return (
+    <div className="slider-item">
+      <Carousel
+        data-bs-theme="dark"
+        slide={true}
+        id="slider-images"
+        indicators={false}
+        controls={project.images.length > 1}
+        touch={project.images.length > 1}
+        onTouchStart={(e) => e.stopPropagation()}
+        onTouchMove={(e) => e.stopPropagation()}
+        onTouchEnd={(e) => e.stopPropagation()}
+      >
+        {project.images.map((i, index) => (
+          <Carousel.Item key={index + "img"}>
+            <div
+              className="image-slide"
+              style={{
+                backgroundImage: `url(${process.env.PUBLIC_URL}/imgs/projects/${i})`,
+              }}
+              key={index + "img1"}
+            ></div>
+          </Carousel.Item>
+        ))}
+      </Carousel>
 
-    const action = () => {
-        window.open(project.link,"_blank");
-    }
-
-    return(
-        <div className="slider-item">
-
-            <Carousel data-bs-theme="dark" slide={true} id="slider-images" indicators={false} controls={project.images.length > 1} >
-                {project.images.map((i, index) =>
-                <Carousel.Item key={index + "img"}>
-                    <div className="image-slide" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/imgs/projects/${i})`}} key={index + "img1"}></div>
-                </Carousel.Item>
-                )}
-            </Carousel>
-
-            <div className="slide-content">
-                <div className="content-body">
-                    <div className="title"><h5>{project.text[language].title}</h5></div>
-                    <div className="slide-section description">
-                        <h6>Description:</h6>
-                        <p>{project.text[language].description}</p>
-                    </div>
-                    <div className="slide-section languages">
-                        <h6>Languages:</h6>
-                        <p className="tags">
-                            {project.technologies.map((l, index) => (
-                                <span key={index + "tech"} className="tag">
-                                {l}
-                                </span>
-                            ))}
-                        </p>
-                    </div>
-                </div>
-                <div className="options">
-                    <PrimaryButton text={btn} action={() => action()} />
-                </div>
+      <div className="slide-content">
+        <div className="content-body">
+          <div className="title">
+            <h5>{project.text[language].title}</h5>
+          </div>
+          <div className="slide-section description">
+            <h6>Description</h6>
+            <p>{project.text[language].description}</p>
+          </div>
+          <div className="specs">
+            <div className="slide-section languages">
+              <h6>Languages</h6>
+              <p className="tags">
+                {project.technologies.map((l, index) => (
+                  <span key={index + "tech"} className="tag">
+                    {l}
+                  </span>
+                ))}
+              </p>
             </div>
-
+            <div className="options-phone">
+              <PrimaryButton text={btn} action={() => action()} />
+            </div>
+          </div>
         </div>
-    );
-
-}
+        <div className="options-desktop">
+          <PrimaryButton text={btn} action={() => action()} />
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default Slide;

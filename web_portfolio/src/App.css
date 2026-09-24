@@ -17,3 +17,19 @@ html,body{
     z-index: -1;
     filter: blur(30px);
 }
+
+@media (max-width: 450px) {
+  #projects,
+  #skills,
+  #about {
+    scroll-margin-top: 70px;
+  }
+}
+
+@media (max-width: 350px) {
+  #projects,
+  #skills,
+  #about {
+    scroll-margin-top: 100x;
+  }
+}
