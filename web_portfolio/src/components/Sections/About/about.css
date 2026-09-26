@@ -267,6 +267,23 @@
   #about .about-content .about-title {
     font-size: var(--fs-400);
   }
+
+  #about .about-content .about-info {
+    font-size: var(--fs-100);
+  }
+
+  .card-arrow img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .contact-section .contact-text{
+    font-size: var(--fs-300);
+  }
+
+  .contact-section .contact-icon{
+    font-size: var(--fs-100);
+  }
 }
 
 @media (max-width: 350px) {
