@@ -203,6 +203,25 @@
   .slider-item {
     font-size: var(--fs-200);
   }
+
+   .slide-content .content-body .description p {
+    max-height: 100px;
+    overflow-y: auto;
+  }
+
+  .slide-content .content-body .specs .slide-section {
+    gap: var(--spacing-2xs);
+  }
+
+  .slide-content .content-body .specs .languages {
+    padding-bottom:var(--spacing-xl) ;
+  }
+
+  .specs .options-phone button {
+    margin-bottom:  var(--spacing-2xl);
+    padding: var(--spacing-2xs);
+  }
+
 }
 
 @media (max-width: 450px) {
